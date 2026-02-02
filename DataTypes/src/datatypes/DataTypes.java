@@ -29,6 +29,9 @@ public class DataTypes {
         System.out.println("   ");
         
         System.out.println("Name: " + name + "\nAge: " + age + "\nHeight: " + height + "\nVaper? " + vaper + "\nSymbol: " + symbol);
+    
+        // test, remove this
+    
     }
         
     
