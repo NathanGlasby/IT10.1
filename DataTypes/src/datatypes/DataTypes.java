@@ -1,38 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package datatypes;
 
 /**
- *
- * @author natha
+ * Demonstrates Java primitive and reference data types, variable assignment, and console output.
  */
 public class DataTypes {
     public static void main(String[] args) {
-       
-        
-       String name = "Marley";
-       // notice how it prints John, since thats the string it was last updated with before running code
-       name = "John";
+
+        // --- Declaring and assigning variables (different data types) ---
+        String name = "Marley";
+        name = "John";  // Reassignment: the variable now holds "John", so that is what prints below
         int age = 26;
         double height = 6.5;
         boolean vaper = false;
         char symbol = 'W';
-        
+
+        // --- Printing each value on its own line ---
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Height: " + height + "ft");
         System.out.println("Smokes?: " + vaper);
         System.out.println("Symbol: " + symbol);
-        
+
         System.out.println("   ");
-        
+
+        // --- Same info in one println using \n for newlines ---
         System.out.println("Name: " + name + "\nAge: " + age + "\nHeight: " + height + "\nVaper? " + vaper + "\nSymbol: " + symbol);
-    
-        // test, remove this
-    
+
     }
-        
-    
 }
