@@ -11,8 +11,10 @@ package datatypes;
 public class DataTypes {
     public static void main(String[] args) {
        
-        String name = "Marley";
-        name = "John";
+        
+       String name = "Marley";
+       // notice how it prints John, since thats the string it was last updated with before running code
+       name = "John";
         int age = 26;
         double height = 6.5;
         boolean vaper = false;
@@ -27,12 +29,6 @@ public class DataTypes {
         System.out.println("   ");
         
         System.out.println("Name: " + name + "\nAge: " + age + "\nHeight: " + height + "\nVaper? " + vaper + "\nSymbol: " + symbol);
-        
-        // test xyz
-        // PR
-        
-               
-        // 123abc
     }
         
     
