@@ -34,7 +34,7 @@ public class DataTypes {
         boolean rare = true;
         char grade = 'A';
         
-        System.out.println("Sneakers: " + sneakers + "\nPrice: R" + price + "Weight: " + weight + "kg" + "\nRare: " + rare + "Second hand quality: " + grade);
+        System.out.println("Sneakers: " + sneakers + "\nPrice: R" + price + "\nWeight: " + weight + "kg" + "\nRare: " + rare + "\nSecond hand quality: " + grade);
         
 
     }

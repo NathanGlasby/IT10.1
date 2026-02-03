@@ -9,14 +9,17 @@ package datatypes;
  * @author natha
  */
 public class MichaelJordan {
-    
+
     String sneakers = "Michael Jordan \"Dynasty Collection\"";
-        int price = 8000000;
-        double weight = 1.8;
-        boolean rare = true;
-        char grade = 'A';
-        
-        System.out.println("Sneakers: " + sneakers + "\nPrice: R" + price + "Weight: " + weight + "kg" + "\nRare: " + rare + "Second hand quality: " + grade);
-        
-    
+    int price = 8000000;
+    double weight = 1.8;
+    boolean rare = true;
+    char grade = 'A';
+
+    public static void main(String[] args) {
+        // NOTE: Mr. Boon did NOT teach this. Creating an object with "new" so we can
+        // use the fields above (sneakers, price, etc.) from inside main.
+        MichaelJordan mj = new MichaelJordan();
+        System.out.println("Sneakers: " + mj.sneakers + "\nPrice: R" + mj.price + "\nWeight: " + mj.weight + "kg" + "\nRare: " + mj.rare + "\nSecond hand quality: " + mj.grade);
+    }
 }
