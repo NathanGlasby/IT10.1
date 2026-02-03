@@ -25,6 +25,17 @@ public class DataTypes {
 
         // --- Same info in one println using \n for newlines ---
         System.out.println("Name: " + name + "\nAge: " + age + "\nHeight: " + height + "\nVaper? " + vaper + "\nSymbol: " + symbol);
+        
+        System.out.println("   ");
+        
+        String sneakers = "Michael Jordan \"Dynasty Collection\"";
+        int price = 8000000;
+        double weight = 1.8;
+        boolean rare = true;
+        char grade = 'A';
+        
+        System.out.println("Sneakers: " + sneakers + "\nPrice: R" + price + "Weight: " + weight + "kg" + "\nRare: " + rare + "Second hand quality: " + grade);
+        
 
     }
 }
