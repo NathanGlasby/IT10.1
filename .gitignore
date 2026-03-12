@@ -38,3 +38,7 @@
 /Armathgeddon/build/
 /LoginCheck/nbproject/private/
 /LoginCheck/build/
+
+/.codex_tmp_classes/
+/.codex_sync_main/
+*.ldb
