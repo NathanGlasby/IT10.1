@@ -1,4 +1,6 @@
-﻿# IT Term 1: Java and SQL Practice
+# IT Term 1: Java and SQL Practice
+
+> Looking for the guided docs version of this repo? Start at the Mintlify site: [student-30f5fd65.mintlify.app](https://student-30f5fd65.mintlify.app). It has topic-by-topic explanations, setup help, and an AI assistant you can use to ask questions about the exercises and project structure.
 
 This repository is a collection of first-term Information Technology coursework focused on beginner Java programming and introductory database work. Most folders are small, self-contained Java exercises built in NetBeans, with one Maven-based project and one Microsoft Access database file.
 
