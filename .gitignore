@@ -38,7 +38,18 @@
 /Armathgeddon/build/
 /LoginCheck/nbproject/private/
 /LoginCheck/build/
+/JavaApplication212/nbproject/private/
+/JavaApplication212/build/
 
-/.codex_tmp_classes/
-/.codex_sync_main/
+# Local recovery copies, IDE settings, and generated files
+/Recovery/
+**/build/
+**/dist/
+**/target/
+**/nbproject/private/
+**/.idea/
+**/.vscode/
+*.class
 *.ldb
+*.laccdb
+build-verification.txt
